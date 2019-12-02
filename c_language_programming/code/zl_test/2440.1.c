@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+   int n,a[100]={0},i,s,j,t;
+    printf("请输入过桥人数n：");
+    scanf("%d",&n);
+   if(n!=0)
+    {
+         s=0;
+    printf("请分别输入n个人的过桥所需时间：\n");
+        for(i=0;i<n;i++)
+         scanf("%d",&a[i]);
+        for(i=0;i<n;i++)
+         {
+            for(j=1+i;j<n;j++)
+            if(a[j]<a[i])
+             {
+                t=a[i];
+                a[i]=a[j];
+                a[j]=t;
+             }
+         }
+        for(i=n-1;i>0;i--)
+         s=s+a[i];
+         s=s+(n-2)*a[0];
+         printf("共需用时%d分钟。\n",s);    
+    }
+   else
+   printf("输入错误。\n");
+}

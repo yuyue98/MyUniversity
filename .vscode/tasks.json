@@ -1,0 +1,78 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc.exe build active file",
+            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
+            "args": [
+                "-std=c11",
+                "-g", "${file}",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-I", "${env:MINGW_HOME}\\include\\",
+
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "gcc.exe build active file(gbk)",
+            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
+            "args": [
+                "-std=c11",
+                "-fexec-charset=GBK",
+                "-g", "${file}",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-I", "${env:MINGW_HOME}\\include\\",
+
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "gcc.exe build active project(gbk)",
+            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
+            "args": [
+                "-std=c11",
+                "-fexec-charset=GBK",
+                "-g", "${file}", "${fileDirname}\\src\\*.c",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-I", "${env:MINGW_HOME}\\include\\",
+
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "gcc test",
+            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
+            "args": [
+                "-v",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
