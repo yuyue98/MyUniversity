@@ -72,6 +72,47 @@
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
             }
+        },
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "${env:MINGW_HOME}\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g", "${file}",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc++",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "g++.exe build active project(gbk)",
+            "command": "${env:MINGW_HOME}\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-fexec-charset=GBK",
+                "-g", "${file}", "${fileDirname}\\src\\*.cpp",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc++",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
         }
     ],
     "version": "2.0.0"
