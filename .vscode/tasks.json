@@ -113,6 +113,43 @@
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
             }
+        },
+		{
+            "label": "dotnet.exe build",
+            "command": "dotnet.exe",
+            "type": "process",
+            "args": [
+                "build",
+                "${fileDirname}/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "dotnet.exe publish",
+            "command": "dotnet.exe",
+            "type": "process",
+            "args": [
+                "publish",
+                "${fileDirname}/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "dotnet.exe watch",
+            "command": "dotnet.exe",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${fileDirname}/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ],
     "version": "2.0.0"

@@ -2,7 +2,7 @@
 
 ## the main model
 
-@import "../../assets/model/c_code.c"
+@import "../../assets/model/c++_code.cpp"
 
 ## the old project
 
@@ -141,7 +141,7 @@
   * include
     * [CountManage.h](experiment/2.4/include/CountManage.h)
     * [Dish.h](experiment/2.4/include/Dish.h)
-    * [DishItem.h](experiment/2.4/include/DishItem.h)      
+    * [DishItem.h](experiment/2.4/include/DishItem.h)
     * [EatinIndent.h](experiment/2.4/include/EatinIndent.h)
     * [Indent.h](experiment/2.4/include/Indent.h)
     * [IndentManage.h](experiment/2.4/include/IndentManage.h)

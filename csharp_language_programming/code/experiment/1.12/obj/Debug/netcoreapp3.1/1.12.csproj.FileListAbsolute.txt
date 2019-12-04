@@ -1,0 +1,11 @@
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\obj\Debug\netcoreapp3.1\1.12.csprojAssemblyReference.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\obj\Debug\netcoreapp3.1\1.12.AssemblyInfoInputs.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\obj\Debug\netcoreapp3.1\1.12.AssemblyInfo.cs
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.exe
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.deps.json
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.runtimeconfig.json
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.runtimeconfig.dev.json
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\bin\Debug\netcoreapp3.1\1.12.pdb
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\obj\Debug\netcoreapp3.1\1.12.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\experiment\1.12\obj\Debug\netcoreapp3.1\1.12.pdb

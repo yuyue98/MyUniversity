@@ -108,6 +108,26 @@
                 }
             ],
             "preLaunchTask": "g++.exe build active project(gbk)"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet.exe build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${fileDirname}/bin/Debug/netcoreapp3.1/1.1.dll",
+            "args": [],
+            "cwd": "${fileDirname}",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "externalConsole": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
         }
     ]
 }

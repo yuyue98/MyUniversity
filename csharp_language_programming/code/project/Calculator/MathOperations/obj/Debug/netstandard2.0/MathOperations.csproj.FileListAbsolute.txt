@@ -1,0 +1,16 @@
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\bin\Debug\netstandard2.0\MathOperations.deps.json
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\bin\Debug\netstandard2.0\MathOperations.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\bin\Debug\netstandard2.0\MathOperations.pdb
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\obj\Debug\netstandard2.0\MathOperations.csprojAssemblyReference.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\obj\Debug\netstandard2.0\MathOperations.AssemblyInfoInputs.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\obj\Debug\netstandard2.0\MathOperations.AssemblyInfo.cs
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\obj\Debug\netstandard2.0\MathOperations.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\MathOperations\obj\Debug\netstandard2.0\MathOperations.pdb
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\bin\Debug\netstandard2.0\MathOperations.deps.json
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\bin\Debug\netstandard2.0\MathOperations.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\bin\Debug\netstandard2.0\MathOperations.pdb
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\obj\Debug\netstandard2.0\MathOperations.csprojAssemblyReference.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\obj\Debug\netstandard2.0\MathOperations.AssemblyInfoInputs.cache
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\obj\Debug\netstandard2.0\MathOperations.AssemblyInfo.cs
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\obj\Debug\netstandard2.0\MathOperations.dll
+d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\MathOperations\obj\Debug\netstandard2.0\MathOperations.pdb

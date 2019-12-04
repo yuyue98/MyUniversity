@@ -4,5 +4,5 @@
     },
     "code-runner.executorMap": {
         "c": "cd $dir && gcc -std=c11 $fileName src/*.c -o $fileNameWithoutExt.exe -I include/ && $dir$fileNameWithoutExt.exe",
-    }
+    },
 }
