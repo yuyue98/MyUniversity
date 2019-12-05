@@ -2,12 +2,12 @@
 
 ## &emsp;[1、code](code/index.md)
 
-&emsp;&emsp;&emsp;主要是与c#语言相关代码
+&emsp;&emsp;&emsp;主要是与python语言相关代码
 
 ## &emsp;[2、docs](docs/index.md)
 
-&emsp;&emsp;&emsp;主要是与c#语言相关实验文档
+&emsp;&emsp;&emsp;主要是与python语言相关实验文档
 
 ## &emsp;[3、info](info/index.md)
 
-&emsp;&emsp;&emsp;主要是与c#语言相关学习资料
+&emsp;&emsp;&emsp;主要是与python语言相关学习资料
