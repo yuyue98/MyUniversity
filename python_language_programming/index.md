@@ -1,4 +1,4 @@
-# [<img style="width:40px;transform:rotate(180deg);" src="../assets/image/back.jpg"/>](../index.md) The c++_language_programming index
+# [<img style="width:40px;transform:rotate(180deg);" src="../assets/image/back.jpg"/>](../index.md) The python_language_programming index
 
 ## &emsp;[1、code](code/index.md)
 
