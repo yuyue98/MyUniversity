@@ -12,17 +12,3 @@ d:\work\mycode\vscode_code\git_project\MyUniversity\Calculator\bin\Debug\netcore
 d:\work\mycode\vscode_code\git_project\MyUniversity\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
 d:\work\mycode\vscode_code\git_project\MyUniversity\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
 d:\work\mycode\vscode_code\git_project\MyUniversity\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\MathOperations.dll
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\bin\Debug\netcoreapp3.1\MathOperations.pdb
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
-d:\work\mycode\vscode_code\git_project\MyUniversity\csharp_language_programming\code\project\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
