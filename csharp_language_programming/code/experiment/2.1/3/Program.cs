@@ -45,7 +45,7 @@ namespace _3
         public static void Main()
         {
             double value1 = 2.0, value2 = 3.0, value3 = 4.0;
-            double x, y;
+            // double x, y;
             double result1 = 0.0, result2 = 0.0;
             double[] num = { 2.0, 3.0, 4.0 };
             Console.WriteLine("函数1：{0}", MeanTool.Mean(value1, value2, value3));

@@ -117,7 +117,7 @@ namespace MyCalculator
         private void button27_Click(object sender, EventArgs e)
         {
             if (textBox2.Text.IndexOf(".") >= 0)
-                ;
+                return;
             else
             {
                 if (textBox2.Text == "")

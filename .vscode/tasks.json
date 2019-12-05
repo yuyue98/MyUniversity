@@ -64,17 +64,6 @@
         },
         {
             "type": "shell",
-            "label": "gcc test",
-            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
-            "args": [
-                "-v",
-            ],
-            "options": {
-                "cwd": "${env:MINGW_HOME}\\bin"
-            }
-        },
-        {
-            "type": "shell",
             "label": "g++.exe build active file",
             "command": "${env:MINGW_HOME}\\bin\\g++.exe",
             "args": [

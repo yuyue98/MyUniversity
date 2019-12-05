@@ -16,7 +16,7 @@ namespace _1
                 y = b;
             }
 
-            public String ToString()
+            public override String ToString()
             {
 
                 return string.Format($"Point(x: {x}, y:{y})");
@@ -62,7 +62,7 @@ namespace _1
                     return false;
             }
 
-            public string ToString()
+            public override String ToString()
             {
                 return string.Format($"Rect[TopLeft: Point(x: {topleft.x}, y:{topleft.y}), Width:{width}, Height: {height}]");
 
@@ -103,7 +103,7 @@ namespace _1
                     return false;
             }
 
-            public string ToString()
+            public override String ToString()
             {
                 return string.Format($"Cirle[Center: Point(x: {center.x}, y:{center.y}), Radius: {radius}, Area: {area()}]");
 

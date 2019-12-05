@@ -20,7 +20,7 @@ namespace _1
         public static string ReverseDigits(this int num)
         {
             string str;
-            int num1 = 1;
+            // int num1 = 1;
             str = num.ToString();
             string str1 = new string(str.ToCharArray().Reverse().ToArray()); ;
             return str1;

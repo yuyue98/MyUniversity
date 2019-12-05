@@ -1,8 +1,17 @@
 {
+    "python.pythonPath": "D:\\work\\cxruanjian\\Python\\Python36\\python3.exe",
+    
     "markdownlint.config": {
         "MD033": false
     },
     "code-runner.executorMap": {
         "c": "cd $dir && gcc -std=c11 $fileName src/*.c -o $fileNameWithoutExt.exe -I include/ && $dir$fileNameWithoutExt.exe",
+        "python": "set PYTHONIOENCODING=utf8 & python3 -B -u",
     },
+    "python.autoComplete.extraPaths": [
+        "D:/work/mycode/vscode_code/git_project/MyUniversity/assets/model/python_package",
+        // "${fileDirname}",
+        // "${workspaceFolder}/**",
+        // "${fileDirname}/include",
+    ],
 }
