@@ -46,6 +46,11 @@
 
 * 该程序实现链表反转
 
+### [theStudent](project/theStudent/main.cpp)
+
+* 该程序实现教务管理系统
+* 如果使用.c会出现`HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);`报错的情况
+
 ## the old experiment
 
 ### the first experiments

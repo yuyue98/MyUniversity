@@ -15,3 +15,7 @@
 * [实验十：递归函数的运用](experiment/1.10.md)
 * [实验十一：字符串的运用](experiment/1.11.md)
 * [实验十二：文件与链表的运用](experiment/1.12.md)
+
+## my docs
+
+* [C语言范例开发大全 记录](mydocs/1.md)

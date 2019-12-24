@@ -2,6 +2,8 @@
 
 ## 一、books index
 
+### &emsp;[0、好书推荐](books/book_images.md)
+
 ### &emsp;[1、C语言趣味程序百例精解](books/C语言趣味程序百例精解.pdf)
 
 ### &emsp;[2、C语言陷阱与缺陷](books/C语言陷阱与缺陷.pdf)
