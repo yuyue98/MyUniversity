@@ -4,6 +4,9 @@
 			"path": "D:\\work\\mycode\\vscode_code\\git_project\\MyUniversity"
 		},
 		{
+			"path": "E:\\study\\Computer\\c语言\\mr"
+		},
+		{
 			"path": "D:\\work\\mycode\\vscode_code\\Markdown_note"
 		}
 	],
@@ -80,7 +83,25 @@
 			"E109.C": "cpp",
 			"E127.C": "cpp",
 			"E153.C": "cpp",
-			"graphics.h": "c"
+			"graphics.h": "c",
+			"01.C": "cpp",
+			"area.C": "cpp",
+			"02.C": "cpp",
+			"1.C": "cpp",
+			"03.C": "cpp",
+			"Temp.C": "cpp",
+			"Temp1.C": "cpp",
+			"math.C": "cpp",
+			"string.C": "cpp",
+			"02_diy.C": "cpp",
+			"01_diy.C": "cpp",
+			"03_diy.C": "cpp",
+			"04.C": "cpp",
+			"04_diy.C": "cpp",
+			"05.C": "cpp",
+			"05_diy.C": "cpp",
+			"2.C": "cpp",
+			"04_zmhh.C": "cpp"
 		},
 	}
 }

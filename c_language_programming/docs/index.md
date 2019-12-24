@@ -19,3 +19,4 @@
 ## my docs
 
 * [C语言范例开发大全 记录](mydocs/1.md)
+* [学通C语言的24堂课 记录](mydocs/2.md)
