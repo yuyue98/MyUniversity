@@ -370,5 +370,8 @@
 
 ### 学通C语言的24堂课
 
-* [1](learn_code/1/1.c)
-  * 123
+* [猜数字](learn_code/2/21.c)
+* [五子棋](learn_code/2/22.c)
+* [学生成绩管理系统](learn_code/2/23.c)
+* [图书管理系统](learn_code/2/24.c)
+  * [db_book](learn_code/2/db_books.rar)

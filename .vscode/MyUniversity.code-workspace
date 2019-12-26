@@ -4,9 +4,6 @@
 			"path": "D:\\work\\mycode\\vscode_code\\git_project\\MyUniversity"
 		},
 		{
-			"path": "E:\\study\\Computer\\c语言\\mr"
-		},
-		{
 			"path": "D:\\work\\mycode\\vscode_code\\Markdown_note"
 		}
 	],
@@ -101,7 +98,30 @@
 			"05.C": "cpp",
 			"05_diy.C": "cpp",
 			"2.C": "cpp",
-			"04_zmhh.C": "cpp"
+			"04_zmhh.C": "cpp",
+			"例10.2.C": "cpp",
+			"例10.3.C": "cpp",
+			"File1.C": "cpp",
+			"File2.C": "cpp",
+			"3.C": "cpp",
+			"4.C": "cpp",
+			"5.C": "cpp",
+			"6.C": "cpp",
+			"7.C": "cpp",
+			"C.C": "cpp",
+			"01_zmhh.C": "cpp",
+			"02_zmhh.C": "cpp",
+			"03_zmhh.C": "cpp",
+			"05_zmhh.C": "cpp",
+			"8.C": "cpp",
+			"9.C": "cpp",
+			"10.C": "cpp",
+			"11.C": "cpp",
+			"ZHEXIAN.C": "cpp",
+			"gobang.C": "cpp",
+			"student.C": "cpp",
+			"Books.C": "cpp",
+			"mysql.h": "c"
 		},
 	}
 }

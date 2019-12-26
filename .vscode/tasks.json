@@ -14,7 +14,6 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
                 "-I", "${env:MINGW_HOME}\\include\\",
-
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
@@ -35,6 +34,9 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
                 "-I", "${env:MINGW_HOME}\\include\\",
+                "-I", "D:\\work\\cxruanjian\\MySQL\\mysql-5.7.26-winx64\\include",
+                "-L", "D:\\work\\cxruanjian\\MySQL\\mysql-5.7.26-winx64\\lib",
+                "-l", "mysql",
 
             ],
             "options": {

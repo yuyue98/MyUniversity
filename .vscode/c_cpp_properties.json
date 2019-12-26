@@ -11,7 +11,8 @@
                 "${env:MINGW_HOME}/lib/gcc/x86_64-w64-mingw32/8.1.0/include/",
                 "${env:MINGW_HOME}/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/",
                 "${env:MINGW_HOME}/x86_64-w64-mingw32/include/",
-                "${env:MINGW_HOME}/include/"
+                "${env:MINGW_HOME}/include/",
+                "D:\\work\\cxruanjian\\MySQL\\mysql-5.7.26-winx64\\include"
             ],
             "cStandard": "c11",
             "cppStandard": "c++17",
