@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <windows.h>
 #include <mysql.h>
 #pragma  comment(lib,"libmysql.lib")
@@ -105,7 +106,7 @@ void ShowAll()    /*调用显示所有图书数据的过程*/
         else
         {
             result=mysql_store_result(&mysql); //获得结果集
-            if(mysql_num_rows(result)!=NULL)
+            if(mysql_num_rows(result)!=(my_ulonglong)0)
             {  //有记录的情况,只有有记录取数据才有意义
                 printf("\t ════════════════════════════ \n");
                 printf("\t                 Show All The Books                       \n");
@@ -142,7 +143,7 @@ void AddBook()    /*添加图书信息*/
     char dest[500] ={"  "};    
     
     /*连接数据库*/
-    if(!mysql_real_connect(&mysql,"127.0.0.1","root","123","db_books",0,NULL,0))
+    if(!mysql_real_connect(&mysql,"127.0.0.1","root","","db_books",0,NULL,0))
     { 
         printf("\n\t Can not connect db_books!\n");
     }
@@ -172,7 +173,7 @@ void AddBook()    /*添加图书信息*/
             strcat(dest,"', '");
 
 
-            if(mysql_num_rows(result)!=NULL)
+            if(mysql_num_rows(result)!=(my_ulonglong)0)
             {                
                 /*判断输入的编号是否存在*/
                 do
@@ -238,7 +239,7 @@ void ModifyBook()   /*修改图书信息*/
     char *author;
     char *bookconcern;
     
-    if (!mysql_real_connect(&mysql,"127.0.0.1","root","123","db_books",0,NULL,0))
+    if (!mysql_real_connect(&mysql,"127.0.0.1","root","","db_books",0,NULL,0))
     {
         printf("\t Can not connect db_books!\n");
     }
@@ -263,7 +264,7 @@ void ModifyBook()   /*修改图书信息*/
         else
         {
             result=mysql_store_result(&mysql); //获得结果集
-            if(mysql_num_rows(result)!=NULL)
+            if(mysql_num_rows(result)!=(my_ulonglong)0)
             {
                 //有记录的情况,只有有记录取数据才有意义
                 printf("\t find the record,show?(y/n) ");
@@ -345,7 +346,7 @@ void DeleteBook()   /*删除图书信息*/
     char *sql;
     char dest[100] ={"  "};
     char dest1[100] ={"  "};
-    if(!mysql_real_connect(&mysql,"127.0.0.1","root","123","db_books",0,NULL,0))
+    if(!mysql_real_connect(&mysql,"127.0.0.1","root","","db_books",0,NULL,0))
     {
         printf("\t Can not connect db_books!\n");
     }
@@ -366,7 +367,7 @@ void DeleteBook()   /*删除图书信息*/
         else
         { 
             result=mysql_store_result(&mysql); //获得结果集
-            if(mysql_num_rows(result)!=NULL)
+            if(mysql_num_rows(result)!=(my_ulonglong)0)
             {  //有记录的情况,只有有记录取数据才有意义
                 printf("\t find the record,show?(y/n) ");
                 scanf("%s",ch);
@@ -421,7 +422,7 @@ void QueryBook()   /*查询图书信息*/
     char *sql;
     char dest[100] ={"  "};
     
-    if(!mysql_real_connect(&mysql,"127.0.0.1","root","123","db_books",0,NULL,0))
+    if(!mysql_real_connect(&mysql,"127.0.0.1","root","","db_books",0,NULL,0))
     {
         printf("\t Can not connect db_books!\n");
     }
@@ -440,7 +441,7 @@ void QueryBook()   /*查询图书信息*/
         else
         {
             result=mysql_store_result(&mysql); //获得结果集
-            if(mysql_num_rows(result)!=NULL)
+            if(mysql_num_rows(result)!=(my_ulonglong)0)
             {  //有记录的情况,只有有记录取数据才有意义
                 printf("\t ════════════════════════════ \n");
                 printf("\t                          Show  Book                      \n");
