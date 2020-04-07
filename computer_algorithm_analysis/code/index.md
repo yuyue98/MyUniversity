@@ -28,4 +28,3 @@
 
 * [document](experiment/1.5.md)
 * [code](experiment/1.5/main.cpp)
-
