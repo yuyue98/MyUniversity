@@ -2,36 +2,46 @@
 
 ## the note
 
-### 使用winsock
-
-* 引入头文件`winsock2.h`
-* 在编译中加入命令`-lwsock32`
-
-## the experiment docs
+## the experiment
 
 ### the first experiments
 
-#### 实验1: 二分搜索算法
+#### 实验1: 锁具型号与账单序列
 
 * [document](../docs/experiment/1.1.md)
-* [code](experiment/1.1/main.cpp)
+* code
+  * [锁具型号](experiment/1.1/1.cpp)
+  * [账单序列](experiment/1.1/2.cpp)
 
-#### 实验2: 最长公共子序列
+#### 实验1.2: 账单序列
 
-* [document](experiment/1.2.md)
+* [document](../docs/experiment/1.1.md)
+* [code](experiment/1.1.2/main.cpp)
+
+#### 实验2: 二元关系性质及其闭包运算
+
+* [document](../docs/experiment/1.2.md)
 * [code](experiment/1.2/main.cpp)
 
-#### 实验3: 贪心算法与回溯法
+#### 实验3: 逻辑学实验
 
-* [document](experiment/1.3.md)
-* [code](experiment/1.3/main.cpp)
+* [document](../docs/experiment/1.3.md)
+* code
+  * [联结词逻辑运算](experiment/1.3/1.cpp)
+  * [命题逻辑公式化简1](experiment/1.3/2.1.cpp)
+  * [命题逻辑公式化简2](experiment/1.3/2.2.cpp)
+  * [命题逻辑推理](experiment/1.3/3.cpp)
 
-#### 实验4: 单源最短路径问题
+#### 实验4: 图的实验
 
-* [document](experiment/1.4.md)
-* [code](experiment/1.4/main.cpp)
+* [document](../docs/experiment/1.4.md)
+* code
+  * [图的连通性判别](experiment/1.4/1.cpp)
+  * [欧拉图判定和应用](experiment/1.4/2.cpp)
+  * [国际象棋的![马](../docs/image/experiment/1.4.3.png)都走遍4*4的格子吗](experiment/1.4/3.cpp)
 
-#### 实验5: 箱子装载问题
+## the project
 
-* [document](experiment/1.5.md)
-* [code](experiment/1.5/main.cpp)
+### [PilotProblem](project/PilotProblem/main.cpp)
+
+* 解决飞行员问题

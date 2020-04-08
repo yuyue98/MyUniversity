@@ -26,7 +26,7 @@
             "preLaunchTask": "gcc.exe build active file"
         },
         {
-            "name": "gcc.exe file debug(gbk)",
+            "name": "gcc.exe file debug externalConsole",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
@@ -44,10 +44,10 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "gcc.exe build active file(gbk)"
+            "preLaunchTask": "gcc.exe build active file"
         },
         {
-            "name": "gcc.exe project debug(gbk)",
+            "name": "gcc.exe project debug externalConsole",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
@@ -65,7 +65,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "gcc.exe build active project(gbk)"
+            "preLaunchTask": "gcc.exe build active project"
         },
         {
             "name": "g++.exe file debug",
@@ -89,7 +89,7 @@
             "preLaunchTask": "g++.exe build active file"
         },
         {
-            "name": "g++.exe file debug(gbk)",
+            "name": "g++.exe file debug externalConsole",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
@@ -107,10 +107,10 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active file(gbk)"
+            "preLaunchTask": "g++.exe build active file"
         },
         {
-            "name": "g++.exe project debug(gbk)",
+            "name": "g++.exe project debug externalConsole",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
@@ -128,7 +128,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active project(gbk)"
+            "preLaunchTask": "g++.exe build active project"
         },
         {
             "name": ".NET Core Launch (console)",

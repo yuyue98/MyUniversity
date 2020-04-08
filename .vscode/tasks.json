@@ -45,6 +45,25 @@
         },
         {
             "type": "shell",
+            "label": "gcc.exe build active project",
+            "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
+            "args": [
+                "-std=c11",
+                "-g", "${file}", "${fileDirname}\\src\\*.c",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-I", "${env:MINGW_HOME}\\include\\",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
             "label": "gcc.exe build active project(gbk)",
             "command": "${env:MINGW_HOME}\\bin\\gcc.exe",
             "args": [
@@ -58,7 +77,6 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
                 "-I", "${env:MINGW_HOME}\\include\\",
-
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
@@ -112,6 +130,27 @@
                 // "-L", "D:\\work\\cxruanjian\\mingw-w64\\WpdPack\\Lib\\x64",
                 // "-l", "Packet",
                 // "-l", "wpcap",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "g++.exe build active project",
+            "command": "${env:MINGW_HOME}\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g", "${file}", "${fileDirname}\\src\\*.cpp",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc++",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
