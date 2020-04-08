@@ -89,6 +89,27 @@
             "preLaunchTask": "g++.exe build active file"
         },
         {
+            "name": "g++.exe file debug(gbk)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "${env:MINGW_HOME}\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++.exe build active file(gbk)"
+        },
+        {
             "name": "g++.exe project debug(gbk)",
             "type": "cppdbg",
             "request": "launch",
