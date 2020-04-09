@@ -98,14 +98,42 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
-                "-l", "wsock32"
-                // "-I", "${env:MINGW_HOME}\\..\\WpdPack\\Include\\",
-                // "-L", "D:\\work\\cxruanjian\\mingw-w64\\WpdPack\\Lib\\x64",
-                // "-l", "Packet",
-                // "-l", "wpcap",
+                "-l", "wsock32",
+                "-I", "${env:MINGW_DIV}\\WpdPack\\Include\\",
+                "-L", "${env:MINGW_DIV}\\WpdPack\\Lib\\x64",
+                "-l", "Packet",
+                "-l", "wpcap",
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "g++.exe build active file x32",
+            "command": "${env:MINGW_DIV}\\mingw32\\bin\\g++.exe",
+            "args": [
+                "-std=c++17", "-m32", "-Wall",
+                "-g", "${file}",
+                "-o", "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe",
+                "-nostdinc++",
+                "-I", "${fileDirname}\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
+                "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
+                "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-l", "wsock32",
+                "-I", "${env:MINGW_DIV}\\WpdPack\\Include\\",
+                "-L", "${env:MINGW_DIV}\\WpdPack\\Lib",
+                "-L", "${env:MINGW_DIV}\\mingw32\\x86_64-w64-mingw32\\lib32",
+                "-L", "${env:MINGW_DIV}\\mingw32\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\32",
+                "-l", "Packet",
+                "-l", "wpcap",
+            ],
+            "options": {
+                "cwd": "${env:MINGW_DIV}\\mingw32\\bin"
             }
         },
         {
@@ -125,11 +153,11 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
-                "-l", "wsock32"
-                // "-I", "${env:MINGW_HOME}\\..\\WpdPack\\Include\\",
-                // "-L", "D:\\work\\cxruanjian\\mingw-w64\\WpdPack\\Lib\\x64",
-                // "-l", "Packet",
-                // "-l", "wpcap",
+                "-l", "wsock32",
+                "-I", "${env:MINGW_DIV}\\WpdPack\\Include\\",
+                "-L", "${env:MINGW_DIV}\\WpdPack\\Lib\\x64",
+                "-l", "Packet",
+                "-l", "wpcap",
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"
@@ -151,6 +179,11 @@
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\",
                 "-I", "${env:MINGW_HOME}\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed\\",
                 "-I", "${env:MINGW_HOME}\\x86_64-w64-mingw32\\include\\",
+                "-l", "wsock32",
+                "-I", "${env:MINGW_DIV}\\WpdPack\\Include\\",
+                "-L", "${env:MINGW_DIV}\\WpdPack\\Lib\\x64",
+                "-l", "Packet",
+                "-l", "wpcap",
             ],
             "options": {
                 "cwd": "${env:MINGW_HOME}\\bin"

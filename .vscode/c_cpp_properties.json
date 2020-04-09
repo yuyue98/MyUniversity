@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "compilerPath": "${env:MINGW_HOME}/bin/g++.exe",
-            "intelliSenseMode": "clang-x64",
+            "intelliSenseMode": "gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
                 "${env:MINGW_HOME}/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/",
@@ -12,7 +12,7 @@
                 "${env:MINGW_HOME}/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/",
                 "${env:MINGW_HOME}/x86_64-w64-mingw32/include/",
                 "${env:MINGW_HOME}/include/",
-                "${env:MINGW_HOME}/../WpdPack/Include",
+                "${env:MINGW_DIV}/WpdPack/Include",
                 "D:\\work\\cxruanjian\\MySQL\\mysql-5.7.26-winx64\\include"
             ],
             "cStandard": "c11",
