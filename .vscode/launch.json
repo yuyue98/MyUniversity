@@ -65,7 +65,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "gcc.exe build active project"
+            "preLaunchTask": "gcc.exe build active project(gbk)"
         },
         {
             "name": "g++.exe file debug",
@@ -128,7 +128,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active file"
+            "preLaunchTask": "g++.exe build active file(gbk)"
         },
         {
             "name": "g++.exe project debug externalConsole",
@@ -149,7 +149,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active project"
+            "preLaunchTask": "g++.exe build active project(gbk)"
         },
         {
             "name": ".NET Core Launch (console)",
